@@ -8,7 +8,7 @@ function startGame() {
   messagesElement!.innerText = 'Welcome to ultiMath! Satarting new Game..';
 }
 
-function logPlayer ( name) {
+function logPlayer ( name : string ): void{
   console.log(`New game starting for player : ${name}`);
   
 };
