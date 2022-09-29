@@ -1,5 +1,9 @@
 function startGame() {
   //stating a new game
+  
+  let playerName: string = 'Audrey';
+  logPlayer( playerName);
+
   var messagesElement = document.getElementById('messages');
   messagesElement!.innerText = 'Welcome to ultiMath! Satarting new Game..';
 }
