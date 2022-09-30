@@ -16,5 +16,3 @@ function logPlayer ( name : string ): void{
 document.getElementById('startGame')?.addEventListener('click', startGame);
 
 
-
-
