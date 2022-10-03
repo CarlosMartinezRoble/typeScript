@@ -45,6 +45,7 @@ document.getElementById('startGame')?.addEventListener('click', startGame);
 
 const logMessage = (message : string) => console.log(message);
 
+
 function logError (err : string) : void {
   console.error( err);
 }
@@ -59,4 +60,3 @@ let myResult: Result = {
 let player : Person = {
   name: "Daniel",
   formatName: () => 'Dan'
-  }; 
